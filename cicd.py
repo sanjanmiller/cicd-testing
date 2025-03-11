@@ -22,7 +22,7 @@ dataset['sepal_length_width_ratio'] = dataset['sepal_length'] / dataset['sepal_w
 dataset['petal_length_width_ratio'] = dataset['petal_length'] / dataset['petal_width']
 
 # Select Features (Correct the duplicate column issue)
-dataset = dataset[['sepal_length', 'sepal_width', 'petal_length', 'petal_width',
+dataset = dataset[['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 
                    'sepal_length_width_ratio', 'petal_length_width_ratio', 'target']]
 
 # Split Data
